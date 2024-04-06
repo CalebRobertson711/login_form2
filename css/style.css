@@ -1,0 +1,98 @@
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.form-container {
+    width: fit-content;
+    height: fit-content;
+    background-color: #D3D3D3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 0 #333333;
+}
+
+.header {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input, .label-container input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+label {
+    text-align: left;
+    display: block;
+    margin-bottom: 0; /* Adjusted to 0 for alignment with the checkbox */
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #424242;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none; /* Adjusted for better appearance */
+    border-radius: 4px;
+    background-color: #483C32;
+    color: #F5F5F5;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Additional styles for checkboxes */
+.label-container input[type="checkbox"] {
+    margin-left: 10px;
+    cursor: pointer;
+}
